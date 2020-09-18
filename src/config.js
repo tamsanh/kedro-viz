@@ -12,7 +12,7 @@ export const sidebarWidth = {
 export const flags = {
   newgraph: {
     description: 'Improved graphing algorithm',
-    default: false,
+    default: true,
     icon: '📈'
   }
 };

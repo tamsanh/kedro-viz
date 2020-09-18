@@ -89,11 +89,15 @@ export const getLayoutNodes = createSelector(
     graph
       ? graph.nodes().map(nodeID => {
           const node = graph.node(nodeID);
-          return Object.assign({}, node, {
-            layer: nodeLayer[nodeID],
-            type: nodeType[nodeID],
-            order: node.x + node.y * 9999
-          });
+          return (
+            (node &&
+              Object.assign({}, node, {
+                layer: nodeLayer[nodeID],
+                type: nodeType[nodeID],
+                order: node.x + node.y * 9999
+              })) ||
+            {}
+          );
         })
       : []
 );

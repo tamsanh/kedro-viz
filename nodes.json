@@ -1,0 +1,143 @@
+{
+    "edges": [
+        {
+            "source": "97c43211",
+            "target": "e4fbcb4a"
+        },
+        {
+            "source": "18282f01",
+            "target": "e4fbcb4a"
+        },
+        {
+            "source": "e4fbcb4a",
+            "target": "26777431"
+        },
+        {
+            "source": "e4fbcb4a",
+            "target": "4fb38d5c"
+        },
+        {
+            "source": "d857f8ff",
+            "target": "5c8b636d"
+        },
+        {
+            "source": "26777431",
+            "target": "5c8b636d"
+        },
+        {
+            "source": "97c43211",
+            "target": "5c8b636d"
+        },
+        {
+            "source": "5c8b636d",
+            "target": "926357f9"
+        },
+        {
+            "source": "63f2c72f",
+            "target": "b59e34ff"
+        },
+        {
+            "source": "b59e34ff",
+            "target": "d857f8ff"
+        },
+        {
+            "source": "d857f8ff",
+            "target": "46369f24"
+        },
+        {
+            "source": "dae94f0c",
+            "target": "46369f24"
+        },
+        {
+            "source": "46369f24",
+            "target": "97c43211"
+        }
+    ],
+    "nodes": [
+        {
+            "full_name": "capture_frames",
+            "id": "e4fbcb4a",
+            "name": "Capture Frames",
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "combine_images_and_subtitles",
+            "id": "5c8b636d",
+            "name": "Combine Images And Subtitles",
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "identity",
+            "id": "b59e34ff",
+            "name": "Identity",
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "key_subtitles",
+            "id": "46369f24",
+            "name": "Key Subtitles",
+            "tags": [],
+            "type": "task"
+        },
+        {
+            "full_name": "keyed_subtitles",
+            "id": "97c43211",
+            "name": "Keyed Subtitles",
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "params:time_segment_seconds",
+            "id": "dae94f0c",
+            "name": "Params:time Segment Seconds",
+            "tags": [],
+            "type": "parameters"
+        },
+        {
+            "full_name": "params:video_urls",
+            "id": "63f2c72f",
+            "name": "Params:video Urls",
+            "tags": [],
+            "type": "parameters"
+        },
+        {
+            "full_name": "processed_video_times",
+            "id": "18282f01",
+            "name": "Processed Video Times",
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "processed_video_times!",
+            "id": "4fb38d5c",
+            "name": "Processed Video Times!",
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "screenshots",
+            "id": "26777431",
+            "name": "Screenshots",
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "video_html",
+            "id": "926357f9",
+            "name": "Video Html",
+            "tags": [],
+            "type": "data"
+        },
+        {
+            "full_name": "youtube_dl",
+            "id": "d857f8ff",
+            "name": "Youtube Dl",
+            "tags": [],
+            "type": "data"
+        }
+    ],
+    "tags": []
+}

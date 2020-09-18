@@ -12,9 +12,10 @@ export default node => {
     .attr('class', 'pipeline-node__icon')
     .attr('viewBox', '0 0 24 24');
 
-  paths[node.type].forEach(path => {
-    svg.append('path').attr('d', path);
-  });
+  paths[node.type] &&
+    paths[node.type].forEach(path => {
+      svg.append('path').attr('d', path);
+    });
 
   return svgNode;
 };

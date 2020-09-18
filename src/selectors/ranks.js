@@ -48,7 +48,7 @@ export const getNodeRank = createSelector(
 
     // Add dependencies for visible edges
     for (const edge of edges) {
-      nodeDeps[edge.source].push(edge.target);
+      nodeDeps[edge.source] && nodeDeps[edge.source].push(edge.target);
     }
 
     // Add "false edge" dependencies for layered nodes to prevent layer overlaps
