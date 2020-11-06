@@ -32,7 +32,7 @@ export const getGraph = createSelector(
     }
 
     // Use experimental graph rendering if flag enabled
-    if (flags.newgraph) {
+    if (flags.newgraph && false) {
       const result = graph(nodes, edges, showLayers && layers);
 
       return {
